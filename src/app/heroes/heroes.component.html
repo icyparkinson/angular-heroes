@@ -1,0 +1,11 @@
+<p>{{age}}</p>
+<button (click)="increase()">Increase Num</button>
+<h2>My Heroes</h2>
+
+<input type = "text" [(ngModel)] = "pokemonName" />
+
+<button (click)="getPokemon()">Get Pokemon</button>
+<ng-container *ngIf="pokemon">
+<div>{{pokemon.name}}</div>
+<img src = {{pokemon.sprites.other.dream_world.front_default}}>
+</ng-container>

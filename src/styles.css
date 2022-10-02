@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+nav{
+    text-align: end;
+}
+
+nav li{
+    display: inline;
+    margin-left: 40px;
+}
+
+nav button{
+    display: inline;
+}
+
+h1{
+    color: blue;
+}
